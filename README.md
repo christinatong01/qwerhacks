@@ -1,4 +1,4 @@
-# qwerhacks
+# QWERhacks 2021
 
 ## Start the project
 > Make sure that you are inside the folder.\
