@@ -9,3 +9,9 @@
 > Make sure you are inside the folder.\
 > Type this into your command line:\
 `npm start`
+
+## In case you are missing dependencies...
+> Below are how to install all the dependencies we used.
+```
+npm install xxxx
+```
