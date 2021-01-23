@@ -1,5 +1,7 @@
 # qwerhacks 2021
 
+## Project Description
+
 ## Start the project
 > Make sure that you are inside the folder.\
 > Make sure that you have installed npm by doing:\
