@@ -40,9 +40,9 @@ export default class Reflect extends React.Component {
             <div>
                 <Nav />
                 <div className="heading">
-                    <p> how to self care </p>
+                    <p> how to self care 🤍 </p>
                     <div className="activity_grid">{this.state.activity.map(this.renderCards)}</div>
-                    <p style={{fontSize:30}}> more? </p>
+                    <a href="https://www.purewow.com/wellness/free-ways-to-practice-self-care" style={{textDecoration: "none", color:"black", fontSize:30}}> more? </a>
                 </div>
             </div>
         );

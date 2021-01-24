@@ -17,7 +17,7 @@ export default class Reflect extends React.Component {
                 {rating: "5", activity: "meditation", color: "#FF5959", day: "sun"},
                 {rating: "4", activity: "breathing", color: "#FF5959", day: "mon"},
                 {rating: "4", activity: "journaling", color: "#FF5959", day: "tues"},
-                {rating: "", activity: "", color: "#FACF5A", day: "wed"},
+                {rating: "5", activity: "", color: "#FACF5A", day: "wed"},
                 {rating: "", activity: "", color: "#49BEB7", day:"thurs"},
                 {rating: "", activity: "", color: "#49BEB7", day:"fri"},
                 {rating: "", activity: "", color: "#49BEB7", day:"sat"},
@@ -41,7 +41,7 @@ export default class Reflect extends React.Component {
             <div>
                 <Nav />
                 <div className="heading">
-                    <p> reflect on the week </p>
+                    <p> reflect on the week 🤍</p>
                     <div className="grid">{this.state.users.map(this.renderCards)}</div>
                 </div>
             </div>

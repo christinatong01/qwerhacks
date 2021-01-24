@@ -50,12 +50,20 @@ body,
   font-family: "PT Sans", sans-serif;
   font-size: 28px;
   justify-content: space-evenly;
-  padding: 130px;
+  padding: 100px;
   text-decoration: none;
   cursor: pointer;
 }
 
 .tabs:hover {
+  opacity: 0.6;
+}
+
+.tabs:active {
+  opacity: 0.6;
+}
+
+.tabs:focus {
   opacity: 0.6;
 }
 
@@ -144,4 +152,47 @@ body,
 
 .button {
   color: white;
+  border-color: #49beb7;
+  font-size: 35px;
+  background-color: #49beb7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.button:hover {
+  background-color: #ff5959;
+  border-color: #ff5959;
+}
+
+.button:focus {
+  background-color: #ff5959;
+  border-color: #ff5959;
+}
+
+.button:active {
+  background-color: #ff5959;
+  border-color: #ff5959;
+}
+
+.button:visited {
+  background-color: #ff5959;
+  border-color: #ff5959;
+}
+
+.rating_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  align-items: center;
+  width: 100px;
+  height: 20px;
+  background-color: #49beb7;
+}
+
+.rating_grid {
+  display: grid;
+  padding-top: 50px;
+  padding-left: 350px;
+  padding-right: 290px;
+  grid-template-columns: auto auto auto auto auto;
 }
