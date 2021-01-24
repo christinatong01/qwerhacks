@@ -14,18 +14,27 @@ export default class Reflect extends React.Component {
 
         this.state = {
             users: [
-                {rating: "5", activity: "meditation", color: "#FF5959", day: "sun"},
-                {rating: "4", activity: "breathing", color: "#FF5959", day: "mon"},
-                {rating: "4", activity: "journaling", color: "#FF5959", day: "tues"},
+                {rating: "5", activity: "meditate and let go", color: "#FF5959", day: "sun"},
+                {rating: "4", activity: "take deep breaths", color: "#FF5959", day: "mon"},
+                {rating: "4", activity: "journal and doodle", color: "#FF5959", day: "tues"},
                 {rating: "5", activity: "", color: "#FACF5A", day: "wed"},
                 {rating: "", activity: "", color: "#49BEB7", day:"thurs"},
                 {rating: "", activity: "", color: "#49BEB7", day:"fri"},
                 {rating: "", activity: "", color: "#49BEB7", day:"sat"},
-            ]
+            ],
+            activity: "",
         };
     }
 
     renderCards = (card, index) => {
+        if (localStorage.getItem("score") != null ) {
+            this.state.activity = localStorage.getItem("score");
+            localStorage.removeItem("score");
+          }
+
+        if (card.day === "wed") {
+            card.activity = this.state.activity;
+        }
 
         return(
                 <div className="card" style={{backgroundColor: card.color }}>
@@ -37,6 +46,7 @@ export default class Reflect extends React.Component {
     }
 
     render () {
+
         return (
             <div>
                 <Nav />

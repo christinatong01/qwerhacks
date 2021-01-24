@@ -30,10 +30,15 @@ export default class Reflect extends React.Component {
         return(
                 <div className="card" style={{backgroundColor: "#49BEB7", width: 300, height: 250}}>
                     <div style={{color: "white", fontSize:40, padding:20}}>{card.name} </div>
-                    <div className="did"> i did it! </div>
+                    <div onClick={() => {this.whenClicked(card.name)}} className="did"> i did it! 🤍 </div>
                 </div>
         );
     }
+
+    whenClicked(str){
+        this.setState({curr_club: str});
+        localStorage.setItem("score", str);
+      }
 
     render () {
         return (
