@@ -1,19 +1,98 @@
 @import url(https://fonts.google.com/specimen/PT+Sans?query=PT+&sidebar.open=true&selection.family=PT+Sans:wght@400;700);
 
+.body {
+  background-color: #49beb7;
+  color: white;
+  align-items: center;
+  padding: 64px 32px;
+  font-family: "PT Sans", sans-serif;
+}
 
-.body{
-    background-color: #49BEB7;
-    color: white;
-    align-items: center;
-    padding: 64px 32px;
-    font-family: 'PT Sans', sans-serif;
+.heading {
+  color: black;
+  font-size: 60px;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 80px;
 }
 
 /*-------------------LOGIN---------------------*/
-.inputTxt{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20 px;
-    line-height: 31 px;
+.inputTxt {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20 px;
+  line-height: 31 px;
 
-    color: white;
+  color: white;
+}
+
+/*-------------------NAV---------------------*/
+.header {
+  background-color: #49beb7;
+  width: 100%;
+  padding: 20px;
+}
+
+.tabs {
+  color: white;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  font-size: 28px;
+  justify-content: space-evenly;
+  padding: 137px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs:hover {
+  opacity: 0.6;
+}
+
+/*-------------------REFLECT---------------------*/
+.wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px 25px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  padding-left: 50px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-column-gap: 0px;
+}
+
+/*-------------------SELF CARE---------------------*/
+.activity_grid {
+  display: grid;
+  padding-left: 50px;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 50px;
+  padding-bottom: 30px;
+}
+
+.did {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.did:hover {
+  opacity: 0.6;
 }
