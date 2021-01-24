@@ -10,7 +10,7 @@ let entered_password = "";
 
 
 export default class login extends React.Component {
-    
+
     //JS
     render ()
     {
@@ -18,7 +18,8 @@ export default class login extends React.Component {
                 //JSX (HTML and JS)
             <div className = "body">
                 <div className="align">
-                <h1> log in! :) </h1>
+                <h1> calmify 🤍</h1>
+                <h2> log in! :) </h2>
                 <div className="inputTxt">
                     <p>username</p>
                 </div>
@@ -28,7 +29,7 @@ export default class login extends React.Component {
                    className="form_input"
                    id='form_username'
                    value1="form_input"
-        
+
                 />
 
                 <div className="inputTxt">
@@ -46,8 +47,8 @@ export default class login extends React.Component {
                 <div style={{paddingTop: 20}}>
                 <a href="#" style={{color:"white"}}>Log In</a>
                 </div>
-        
-                
+
+
                 <div className="inputTxt">
                     <p>don't have an account? <a href="#signup" style={{color:"white"}}>sign up.</a> </p>
                 </div>
