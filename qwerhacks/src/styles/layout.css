@@ -1,5 +1,19 @@
+@import url(https://fonts.google.com/specimen/PT+Sans?query=PT+&sidebar.open=true&selection.family=PT+Sans:wght@400;700);
 
 
 .body{
     background-color: #49BEB7;
+    color: white;
+    align-items: center;
+    padding: 64px 32px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*-------------------LOGIN---------------------*/
+.inputTxt{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20 px;
+    line-height: 31 px;
+
+    color: white;
 }
