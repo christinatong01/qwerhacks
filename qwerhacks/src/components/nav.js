@@ -13,7 +13,7 @@ export class Nav extends React.Component {
     render () {
         return (
             <div className="header">
-                <a href="#me" className="tabs"x> me </a>
+                <a href="#me" className="tabs"> me </a>
                 <a href="#self-care" className="tabs"> self care </a>
                 <a href="#reflect" className="tabs"> reflect </a>
                 <a className="tabs" onClick={() => {this.logOut()}}> log out </a>

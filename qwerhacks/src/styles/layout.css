@@ -1,11 +1,11 @@
 @import url(https://fonts.google.com/specimen/PT+Sans?query=PT+&sidebar.open=true&selection.family=PT+Sans:wght@400;700);
 
+html,
+body,
+#root,
+.App,
 .body {
-  background-color: #49beb7;
-  color: white;
-  align-items: center;
-  padding: 64px 32px;
-  font-family: "PT Sans", sans-serif;
+  height: 100vh;
 }
 
 .heading {
@@ -13,6 +13,19 @@
   font-size: 60px;
   font-family: "PT Sans", sans-serif;
   padding-top: 80px;
+}
+
+.body {
+  background-color: #49beb7;
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin: 0 px;
+  padding: 0 px;
+  font-family: "PT Sans", sans-serif;
+}
+.form_input {
+  width: 100%;
 }
 
 /*-------------------LOGIN---------------------*/
@@ -37,7 +50,7 @@
   font-family: "PT Sans", sans-serif;
   font-size: 28px;
   justify-content: space-evenly;
-  padding: 137px;
+  padding: 130px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -95,4 +108,40 @@
 
 .did:hover {
   opacity: 0.6;
+}
+/*-------------------LOGIN & SIGNUP---------------------*/
+.inputTxt {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20 px;
+  line-height: 31 px;
+  color: white;
+  text-align: left;
+}
+
+.h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 300 px !important;
+  margin: 0;
+}
+
+.align {
+  max-width: 20rem;
+  max-height: 10rem;
+}
+
+/*--------------------RATING-------------------*/
+.rectangle {
+  display: inline-block;
+  width: 105px;
+  height: 19px;
+  background: #49beb7;
+  padding: 20px;
+  padding-right: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.button {
+  color: white;
 }
