@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/layout.css";
 import { useEffect, useState } from 'react';
 import  db from "../config.js";
-import firebase from 'firebase';
-import axios from 'axios';
+
+
 
 import { Nav } from "./nav.js";
 
