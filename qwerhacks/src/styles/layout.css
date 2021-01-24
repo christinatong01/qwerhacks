@@ -1,31 +1,56 @@
 @import url(https://fonts.google.com/specimen/PT+Sans?query=PT+&sidebar.open=true&selection.family=PT+Sans:wght@400;700);
 
+html, body, #root, .App, .body  {height: 100vh ; }
 
 .body{
     background-color: #49BEB7;
     color: white;
-    align-items: center;
-    padding: 64px 32px;
+    justify-content: center;
+    display: flex;
+    margin: 0 px;
+    padding: 0 px;
     font-family: 'PT Sans', sans-serif;
 }
+.form_input{
+    width:100%;
+}
 
-/*-------------------LOGIN---------------------*/
+/*-------------------LOGIN & SIGNUP---------------------*/
 .inputTxt{
     font-family: 'PT Sans', sans-serif;
     font-size: 20 px;
     line-height: 31 px;
-    justify-content: left;
     color: white;
+    text-align: left;
 }
 
 .h1 {
     font-family: 'PT Sans', sans-serif;
     font-size: 300 px !important;
+    margin: 0;
 }
 
-/*-------------------SIGN UP--------------------*/
+.align{
+    max-width: 20rem;
+    max-height: 10rem;
+}
 
+/*--------------------RATING-------------------*/
+.rectangle{
+    display:inline-block;
+    width:105px;
+    height:19px;
+    background:#49BEB7;
+    padding: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    justify-content: center;
 
+}
 
+.button{
+    color: white;
+}
 
 
