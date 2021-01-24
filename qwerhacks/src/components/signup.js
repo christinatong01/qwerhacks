@@ -43,6 +43,10 @@ export default class login extends React.Component {
                 id='form_birthday'
             />
 
+            <div style={{paddingTop: 20}}>
+                <a href="#" style={{color:"white"}}>Signup</a>
+                </div>
+                
             <div className="inputTxt">
                 <p>already have an account? <a href="#login" style={{color:"white"}}>log in here.</a> </p>
             </div>
